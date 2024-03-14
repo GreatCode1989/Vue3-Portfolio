@@ -888,7 +888,7 @@ span {
     font-size: 22px;
   }
   .home-content p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .btn-box .btn {
     font-size: 13px;
@@ -910,7 +910,7 @@ span {
     font-size: 22px;
   }
   .about-content p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .education-column .title {
     font-size: 27px;
@@ -922,7 +922,7 @@ span {
     font-size: 19px;
   }
   .education-content p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .skills-column .title {
     font-size: 25px;
@@ -933,10 +933,10 @@ span {
   .contact form .input-box .input-field input,
   .contact form .textarea-field textarea
   {
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer-text p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer-iconTop a {
     padding: 5px;
