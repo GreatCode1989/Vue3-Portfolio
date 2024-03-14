@@ -703,3 +703,103 @@ span {
 .footer-iconTop a:hover i {
   color: #00abf0;
 }
+
+/* BREAKPOINTS */
+@media (max-width: 1200px) {
+  .logo {
+    font-size: 22px;
+  }
+  .navbar a {
+    font-size: 15px;
+  }
+  #menu-icon {
+    font-size: 27px;
+  }
+  .home-content h1 {
+    font-size: 50px;
+  }
+  .home-content .text-animate h3 {
+    font-size: 28px;
+  }
+  .home-content p {
+    font-size: 13px;
+  }
+  .btn-box .btn {
+    font-size: 14px;
+    width: 130px;
+    height: 90%;
+  }
+  .home-sci {
+    width: 150px;
+  }
+  .home-sci a {
+    width: 37px;
+    height: 37px;
+    font-size: 18px;
+  }
+  .heading {
+    font-size: 44px;
+  }
+  .about-content h3 {
+    font-size: 24px;
+  }
+  .about-content p {
+    font-size: 13px;
+  }
+  .education-column .title {
+    font-size: 32px;
+  }
+  .education-content .content .year {
+    font-size: 15px;
+  }
+  .education-content h3 {
+    font-size: 21px;
+  }
+  .education-content p {
+    font-size: 13px;
+  }
+  .skills-column .title {
+    font-size: 30px;
+  }
+  .skills-content .progressive h3 {
+    font-size: 15px;
+  }
+  .contact form .input-box .input-field input,
+  .contact form .textarea-field textarea
+  {
+    font-size: 14px;
+  }
+  .footer-text p {
+    font-size: 13px;
+  }
+  .footer-iconTop a {
+    padding: 6px;
+  }
+  .footer-iconTop a i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 20px 4%;
+  }
+  .heading {
+    font-size: 42px;
+  }
+  .education-column .title {
+    font-size: 30px;
+  }
+  .skills-column .title {
+    font-size: 28px;
+  }
+  section {
+    padding: 100px 4% 20px;
+  }
+  .home {
+    padding: 0 4%;
+  }
+  .footer {
+    padding: 20px 4%;
+  }
+}
