@@ -945,3 +945,94 @@ span {
     font-size: 18px;
   }
 }
+
+@media (max-width: 470px) {
+  .logo {
+    font-size: 13px;
+  }
+  .header {
+padding: 10px 14px;
+  }
+  .navbar a {
+    font-size: 11px;
+  }
+  #menu-icon {
+    font-size: 15px;
+  }
+  #menu-icon.active::before {
+    font-size: 15px;
+  }
+  .home-content h1 {
+    font-size: 30px;
+  }
+  .home-content .text-animate h3 {
+    font-size: 18px;
+  }
+  .home-content p {
+    font-size: 10px;
+  }
+.btn-box {
+  width: 230px;
+}
+
+  .btn-box .btn {
+    font-size: 10px;
+    width: 100px;
+    height: 70%;
+  }
+  .home-sci {
+    width: 100px;
+    bottom: 50px;
+  }
+  .home-sci a {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+  }
+  .heading {
+    margin-top: 30px;
+    font-size: 27px;
+  }
+
+  section {
+    padding: 30px 5%;
+  }
+  .about-content h3 {
+    font-size: 17px;
+  }
+  .about-content p {
+    font-size: 10px;
+  }
+  .education-column .title {
+    font-size: 21px;
+  }
+  .education-content .content .year {
+    font-size: 12px;
+  }
+  .education-content h3 {
+    font-size: 17px;
+  }
+  .education-content p {
+    font-size: 10px;
+  }
+  .skills-column .title {
+    font-size: 21px;
+  }
+  .skills-content .progressive h3 {
+    font-size: 12px;
+  }
+  .contact form .input-box .input-field input,
+  .contact form .textarea-field textarea
+  {
+    font-size: 10px;
+  }
+  .footer-text p {
+    font-size: 10px;
+  }
+  .footer-iconTop a {
+    padding: 4px;
+  }
+  .footer-iconTop a i {
+    font-size: 15px;
+  }
+}
