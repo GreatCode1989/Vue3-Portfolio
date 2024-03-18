@@ -106,33 +106,37 @@ section {
 
 .home-content .text-animate {
   position: relative;
-  width: 328px;
+  width: 285px;
+  z-index: 1;
 }
 
 .home-content .text-animate h3 {
   font-size: 32px;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 0.5px #fff;
+  -webkit-text-stroke: 0.3px #fff;
   background-image: linear-gradient(#00abf0, #00abf0);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: -410px 0;
-
-  animation: animateText 6s linear infinite;
+  background-position: -285px 0;
+  animation: homeBgText 6s linear infinite;
+  
 }
 
-@keyframes animateText {
-  0%,
-  95%,
-  100% {
-    background-position: -410px 0;
-  }
-  65%,
-  85% {
-    background-position: 0 0;
-  }
-}
+/* .home-content .text-animate h3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 2px solid #00abf0;
+  z-index: -1;
+  animation: homeCursorText 6s linear infinite;
+  
+} */
+
+
 
 .home-content p {
   font-size: 16px;
@@ -886,7 +890,9 @@ span {
   }
   .home-content .text-animate h3 {
     font-size: 22px;
+   
   }
+
   .home-content p {
     font-size: 12px;
   }
@@ -982,7 +988,7 @@ padding: 10px 14px;
   }
   .home-sci {
     width: 100px;
-    bottom: 50px;
+    bottom: 70px;
   }
   .home-sci a {
     width: 27px;
@@ -1021,6 +1027,11 @@ padding: 10px 14px;
   .skills-content .progressive h3 {
     font-size: 12px;
   }
+
+  .contact form .input-box .input-field {
+    width: 100%;
+  }
+
   .contact form .input-box .input-field input,
   .contact form .textarea-field textarea
   {
@@ -1036,3 +1047,36 @@ padding: 10px 14px;
     font-size: 15px;
   }
 }
+
+/* keyframes */
+@keyframes homeBgText {
+  0%,
+  10%,
+  100% {
+    background-position: -285px 0;
+  }
+  65%,
+  85% {
+    background-position: 0 0;
+  }
+}
+/* 
+@keyframes homeCursorText {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  65%,
+  78%,
+  85% {
+   width: 100%;
+   opacity: 1;
+  }
+
+  78%,
+  81% {
+    opacity: 0;
+  }
+} */
