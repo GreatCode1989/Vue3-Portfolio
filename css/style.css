@@ -1095,10 +1095,28 @@ span {
 }
 
 @media (max-width: 400px) {
- .header {
-  max-width: 370px;
- }
+  .home-content .text-animate {
+    width: 300px;
+  }
+
+  section {
+    padding-left: 30px;
+  }
+
+
 }
+@media (max-width: 320px) {
+  .home-content .text-animate {
+    width: 250px;
+  }
+
+  section {
+    padding-left: 30px;
+  }
+
+}
+
+
 
 /* keyframes */
 @keyframes homeBgText {
