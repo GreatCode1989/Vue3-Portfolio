@@ -1103,6 +1103,11 @@ span {
   margin-top: 30px;
  }
 
+ .about .btn-box.btns {
+  display: inline-block;
+  width: 120px;
+}
+
 
 }
 @media (max-width: 320px) {
