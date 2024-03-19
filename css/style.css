@@ -151,6 +151,9 @@ section {
   font-size: 16px;
   margin: 20px 0 40px;
   color: #fff;
+  font-weight: bold;
+  background: rgba(26, 61, 87, 0.2);
+  border-radius: 5%;
 }
 
 .btn-box {
@@ -1100,27 +1103,20 @@ span {
     width: 300px;
   }
 
- .about .heading {
-  margin-top: 30px;
- }
+  .about .heading {
+    margin-top: 30px;
+  }
 
- .about .btn-box.btns {
-  display: inline-block;
-  width: 110px;
-}
-
-
+  .about .btn-box.btns {
+    display: inline-block;
+    width: 110px;
+  }
 }
 @media (max-width: 320px) {
   .home-content .text-animate {
     width: 250px;
   }
-
-
-
 }
-
-
 
 /* keyframes */
 @keyframes homeBgText {
