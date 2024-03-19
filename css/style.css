@@ -615,8 +615,8 @@ span {
 }
 
 .contact {
-  min-height: auto;
-  padding-bottom: 70px;
+  min-height: 900px;
+
   background: #112e42;
 }
 
@@ -712,7 +712,6 @@ span {
 }
 
 .footer-text p {
-  
   font-size: 16px;
 }
 
