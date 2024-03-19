@@ -1004,6 +1004,7 @@ span {
   }
   .header {
     padding: 10px 14px;
+    max-width: auto;
   }
   .navbar a {
     font-size: 11px;
@@ -1091,6 +1092,12 @@ span {
   .footer-iconTop a i {
     font-size: 15px;
   }
+}
+
+@media (max-width: 400px) {
+ .header {
+  max-width: 370px;
+ }
 }
 
 /* keyframes */
