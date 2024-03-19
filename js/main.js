@@ -1,11 +1,11 @@
 // toggle icon navbar
 
-let navbar = document.querySelector('.navbar');
-const menuIcon = document.getElementById('menu-icon');
+let navbar = document.querySelector(".navbar");
+const menuIcon = document.getElementById("menu-icon");
 
-menuIcon.addEventListener('click', function() {
-  menuIcon.classList.toggle('active'); 
-  navbar.classList.toggle('active')
+menuIcon.addEventListener("click", function () {
+  menuIcon.classList.toggle("active");
+  navbar.classList.toggle("active");
 });
 
 //scroll sections
@@ -28,6 +28,12 @@ window.addEventListener("scroll", () => {
       document
         .querySelector('header nav a[href*="' + id + '"]')
         .classList.add("active");
+      // active section for animation on scroll
+      sec.classList.add("show-animate");
+    }
+    // if to use animation that repeats on scroll use this
+    else {
+      sec.classList.remove("show-animate");
     }
   });
 
@@ -35,8 +41,17 @@ window.addEventListener("scroll", () => {
   let header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 100);
 
-  menuIcon.classList.remove('active'); 
-  navbar.classList.remove('active')
+  // remove toggle icon and navbar click navbar links scroll
+  menuIcon.classList.remove("active");
+  navbar.classList.remove("active");
+
+  // animation footer on scroll
+  let footer = document.querySelector("footer");
+
+  footer.classList.toggle(
+    "show-animate",
+    this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight
+  );
 });
 
 // form reset
