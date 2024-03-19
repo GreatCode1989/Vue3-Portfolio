@@ -150,6 +150,7 @@ section {
   position: relative;
   font-size: 16px;
   margin: 20px 0 40px;
+  color: #fff;
 }
 
 .btn-box {
@@ -190,7 +191,7 @@ section {
   left: 0;
   width: 0;
   height: 100%;
-  background: #00abf0;
+  background: #313232;
   z-index: -1;
   transition: 0.5s;
 }
@@ -211,7 +212,7 @@ section {
   left: 0;
   width: 0;
   height: 100%;
-  background: #1a3d57;
+  background: rgb(87, 26, 26);
   z-index: -1;
   transition: 0.5s;
 }
