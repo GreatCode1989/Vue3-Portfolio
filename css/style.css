@@ -1099,9 +1099,9 @@ span {
     width: 300px;
   }
 
-  section {
-    padding-left: 30px;
-  }
+ .about .heading {
+  margin-top: 30px;
+ }
 
 
 }
@@ -1110,9 +1110,7 @@ span {
     width: 250px;
   }
 
-  section {
-    padding-left: 30px;
-  }
+
 
 }
 
